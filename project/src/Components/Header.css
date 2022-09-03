@@ -1,0 +1,11 @@
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-stretch: expanded;
+    background-color: brown;
+    font-style: italic;
+} 
+form {
+    text-align: center;
+    margin-top: 150px;
+}
