@@ -6,8 +6,8 @@ const MainBody = () => {
     const [login, setLogin] = useState("")
     const [password, setPassword] = useState("")
     const openInNewTab = (url) => {
-        if (login == "Денис") {
-            if (password == 123) {
+        if (login === "Денис") {
+            if (password === 123) {
                 window.open(url).focus();
             }
         } else {
