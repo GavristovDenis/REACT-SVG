@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import "./main-body.css"
 
 
@@ -14,6 +14,10 @@ const MainBody = () => {
             alert("Неправильный пароль")
         }
     }
+
+
+
+
     return (
         <div>
             <form>
@@ -36,6 +40,7 @@ const MainBody = () => {
                 <div>
                     <button type="button" className='submitButton' id='submitButton' onClick={() => openInNewTab("http://risovach.ru/upload/2018/09/mem/putin_187583883_orig_.jpg")}>Войти</button>
                 </div>
+
             </form>
         </div>
     )
